@@ -1,0 +1,5 @@
+# vim: filetype=muttrc
+
+#Accounts
+source ~/.config/neomutt/accounts/gmail
+folder-hook $folder 'source ~/.config/neomutt/accounts/gmail'

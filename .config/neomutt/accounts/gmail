@@ -1,0 +1,17 @@
+set from = "jonnyhackett25@gmail.com"
+set realname = "Jonathan Hackett"
+
+#IMAP settings
+set imap_user = "jonnyhackett25@gmail.com"
+set imap_pass = "25planewood"
+
+#SMTP settings
+set smtp_url = "smtps://jonnyhackett25@smtp.gmail.com"
+set smtp_pass = "25planewood"
+
+#Remote folders
+set folder = "imaps://imap.gmail.com/"
+set spoolfile = "+INBOX"
+set postponed = "+[Gmail]/Drafts"
+set record = "+[Gmail}/Sent Mail"
+set trash = "+[Gmail]/Trash"

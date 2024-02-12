@@ -1,0 +1,20 @@
+2023-11-06 16:03:47.274 [info] Extension host with pid 338987 started
+2023-11-06 16:03:47.274 [info] Skipping acquiring lock for /home/orbii/.config/Code - OSS/User/workspaceStorage/2a54adfd5d04d680fe21bbee3d3be6fe.
+2023-11-06 16:03:47.918 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-11-06 16:03:48.032 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2023-11-06 16:03:48.619 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2023-11-06 16:03:48.637 [info] ExtensionService#_doActivateExtension auiworks.amvim, startup: false, activationEvent: '*'
+2023-11-06 16:03:49.490 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2023-11-06 16:03:49.761 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2023-11-06 16:03:50.207 [info] ExtensionService#_doActivateExtension ms-vscode.makefile-tools, startup: true, activationEvent: 'workspaceContains:**/makefile,**/Makefile,**/GNUmakefile'
+2023-11-06 16:03:50.530 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-11-06 16:03:50.569 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2023-11-06 16:03:50.782 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2023-11-06 16:03:51.018 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-11-06 16:03:51.951 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-11-06 16:03:52.928 [info] Eager extensions activated
+2023-11-06 16:03:53.015 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-06 16:03:53.019 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-06 16:03:53.093 [info] ExtensionService#_doActivateExtension degreat.fonted, startup: false, activationEvent: 'onStartupFinished'
+2023-11-06 16:38:38.719 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.inline.macro'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-11-06 16:39:40.602 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.inline.macro'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.

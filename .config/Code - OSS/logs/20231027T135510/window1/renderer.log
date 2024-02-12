@@ -1,0 +1,16 @@
+2023-10-27 13:55:15.320 [error] Extension 'ms-vscode.cpptools CANNOT USE these API proposals 'terminalDataWriteEvent'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-10-27 13:55:23.218 [error] c.actions is not iterable: TypeError: c.actions is not iterable
+    at i.f (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:778:24583)
+    at i.c (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:778:24364)
+    at d.a (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:778:24207)
+    at d (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1530:1900)
+    at d.setHandler (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1530:1773)
+    at new i (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:778:24155)
+    at g.j (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:640:1241)
+    at g.createInstance (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:640:733)
+    at new h (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1577:10971)
+    at g.j (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:640:1241)
+    at g.createInstance (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:640:733)
+    at y.k (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1571:59409)
+    at c (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1571:59191)
+2023-10-27 13:55:23.914 [info] [perf] Render performance baseline is 175ms

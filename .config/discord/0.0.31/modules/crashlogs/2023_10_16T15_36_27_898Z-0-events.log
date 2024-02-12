@@ -1,0 +1,14 @@
+2023-10-16T15:36:27.914Z 0: 
+
+----------------------------------------------
+2023-10-16T15:36:27.955Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.31"}, modulepath: /home/orbii/.config/discord/0.0.31/modules
+2023-10-16T15:36:27.963Z 2: ✅ webContents.created web1 ""
+2023-10-16T15:36:27.967Z 3: ✅ window.created win1 "discord"
+2023-10-16T15:36:28.365Z 4: ✅ webContents.did-finish-load web1
+2023-10-16T15:36:39.857Z 5: ✅ webContents.created web2 ""
+2023-10-16T15:36:39.918Z 6: ✅ window.created win2 "Discord"
+2023-10-16T15:36:47.272Z 7: ✅ webContents.did-finish-load web2
+2023-10-16T15:36:47.371Z 8: window.close win1
+2023-10-16T15:36:47.388Z 9: webContents.destroyed web1
+2023-10-16T15:36:47.391Z 10: window.closed win1
+2023-10-16T15:42:41.210Z 11: webContents.destroyed web2

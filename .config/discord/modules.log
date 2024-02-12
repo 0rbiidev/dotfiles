@@ -1,0 +1,417 @@
+2023-10-16T15:36:27.853Z [Modules] Modules initializing
+2023-10-16T15:36:27.853Z [Modules] Distribution: remote
+2023-10-16T15:36:27.854Z [Modules] Host updates: enabled
+2023-10-16T15:36:27.854Z [Modules] Module updates: enabled
+2023-10-16T15:36:27.855Z [Modules] Module install path: /home/orbii/.config/discord/0.0.31/modules
+2023-10-16T15:36:27.855Z [Modules] Module installed file path: /home/orbii/.config/discord/0.0.31/modules/installed.json
+2023-10-16T15:36:27.856Z [Modules] Module download path: /home/orbii/.config/discord/0.0.31/modules/pending
+2023-10-16T15:36:28.208Z [Modules] Bootstrapping...
+2023-10-16T15:36:28.210Z [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2023-10-16T15:36:28.217Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2023-10-16T15:36:28.219Z [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2023-10-16T15:36:28.221Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2023-10-16T15:36:28.222Z [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2023-10-16T15:36:28.224Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2023-10-16T15:36:28.224Z [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2023-10-16T15:36:28.227Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2023-10-16T15:36:28.228Z [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2023-10-16T15:36:28.229Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2023-10-16T15:36:28.230Z [Modules] Finished module installations. [success: 0] [failure: 5]
+2023-10-16T15:36:28.231Z [Modules] Checking for host updates.
+2023-10-16T15:36:28.790Z [Modules] Host is up to date.
+2023-10-16T15:36:28.791Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-10-16T15:36:28.979Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2023-10-16T15:36:28.979Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2023-10-16T15:36:28.980Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2023-10-16T15:36:28.980Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2023-10-16T15:36:28.980Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2023-10-16T15:36:28.982Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2023-10-16T15:36:28.983Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip
+2023-10-16T15:36:29.395Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 1%
+2023-10-16T15:36:29.406Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 2%
+2023-10-16T15:36:29.413Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 3%
+2023-10-16T15:36:29.428Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 6%
+2023-10-16T15:36:29.436Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 8%
+2023-10-16T15:36:29.443Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 13%
+2023-10-16T15:36:29.451Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 18%
+2023-10-16T15:36:29.458Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 23%
+2023-10-16T15:36:29.466Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 30%
+2023-10-16T15:36:29.473Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 34%
+2023-10-16T15:36:29.483Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 42%
+2023-10-16T15:36:29.487Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 46%
+2023-10-16T15:36:29.599Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 49%
+2023-10-16T15:36:29.604Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 52%
+2023-10-16T15:36:29.607Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 54%
+2023-10-16T15:36:29.611Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 57%
+2023-10-16T15:36:29.615Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 60%
+2023-10-16T15:36:29.620Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 66%
+2023-10-16T15:36:29.637Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 67%
+2023-10-16T15:36:29.641Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 73%
+2023-10-16T15:36:29.645Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 79%
+2023-10-16T15:36:29.651Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 82%
+2023-10-16T15:36:29.658Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 94%
+2023-10-16T15:36:29.662Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 96%
+2023-10-16T15:36:29.665Z [Modules] Streaming discord_desktop_core@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 100%
+2023-10-16T15:36:29.673Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2023-10-16T15:36:29.674Z [Modules] Streaming discord_erlpack@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip
+2023-10-16T15:36:29.852Z [Modules] Streaming discord_erlpack@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 3%
+2023-10-16T15:36:29.856Z [Modules] Streaming discord_erlpack@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 6%
+2023-10-16T15:36:29.872Z [Modules] Streaming discord_erlpack@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 13%
+2023-10-16T15:36:29.879Z [Modules] Streaming discord_erlpack@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 21%
+2023-10-16T15:36:29.887Z [Modules] Streaming discord_erlpack@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 25%
+2023-10-16T15:36:29.891Z [Modules] Streaming discord_erlpack@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 27%
+2023-10-16T15:36:29.895Z [Modules] Streaming discord_erlpack@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 29%
+2023-10-16T15:36:30.010Z [Modules] Streaming discord_erlpack@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 33%
+2023-10-16T15:36:30.016Z [Modules] Streaming discord_erlpack@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 36%
+2023-10-16T15:36:30.020Z [Modules] Streaming discord_erlpack@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 39%
+2023-10-16T15:36:30.027Z [Modules] Streaming discord_erlpack@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 41%
+2023-10-16T15:36:30.031Z [Modules] Streaming discord_erlpack@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 47%
+2023-10-16T15:36:30.042Z [Modules] Streaming discord_erlpack@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 53%
+2023-10-16T15:36:30.046Z [Modules] Streaming discord_erlpack@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 58%
+2023-10-16T15:36:30.052Z [Modules] Streaming discord_erlpack@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 62%
+2023-10-16T15:36:30.090Z [Modules] Streaming discord_erlpack@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 65%
+2023-10-16T15:36:30.095Z [Modules] Streaming discord_erlpack@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 70%
+2023-10-16T15:36:30.099Z [Modules] Streaming discord_erlpack@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 76%
+2023-10-16T15:36:30.104Z [Modules] Streaming discord_erlpack@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 87%
+2023-10-16T15:36:30.109Z [Modules] Streaming discord_erlpack@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 100%
+2023-10-16T15:36:30.115Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2023-10-16T15:36:30.115Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip
+2023-10-16T15:36:30.459Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 1%
+2023-10-16T15:36:30.467Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 2%
+2023-10-16T15:36:30.479Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 3%
+2023-10-16T15:36:30.489Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 4%
+2023-10-16T15:36:30.501Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 5%
+2023-10-16T15:36:30.625Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 6%
+2023-10-16T15:36:30.632Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 7%
+2023-10-16T15:36:30.637Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 8%
+2023-10-16T15:36:30.644Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 9%
+2023-10-16T15:36:30.651Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 11%
+2023-10-16T15:36:30.686Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 12%
+2023-10-16T15:36:30.692Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 14%
+2023-10-16T15:36:30.703Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 16%
+2023-10-16T15:36:30.708Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 17%
+2023-10-16T15:36:30.715Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 20%
+2023-10-16T15:36:30.724Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 23%
+2023-10-16T15:36:30.729Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 24%
+2023-10-16T15:36:30.828Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 25%
+2023-10-16T15:36:30.837Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 26%
+2023-10-16T15:36:30.855Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 27%
+2023-10-16T15:36:30.866Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 29%
+2023-10-16T15:36:30.885Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 30%
+2023-10-16T15:36:30.898Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 33%
+2023-10-16T15:36:30.907Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 35%
+2023-10-16T15:36:30.915Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 38%
+2023-10-16T15:36:30.931Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 41%
+2023-10-16T15:36:30.939Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 43%
+2023-10-16T15:36:31.036Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 44%
+2023-10-16T15:36:31.044Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 45%
+2023-10-16T15:36:31.054Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 47%
+2023-10-16T15:36:31.061Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 48%
+2023-10-16T15:36:31.069Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 49%
+2023-10-16T15:36:31.100Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 50%
+2023-10-16T15:36:31.111Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 51%
+2023-10-16T15:36:31.122Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 54%
+2023-10-16T15:36:31.130Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 56%
+2023-10-16T15:36:31.142Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 60%
+2023-10-16T15:36:31.149Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 61%
+2023-10-16T15:36:31.239Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 62%
+2023-10-16T15:36:31.252Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 63%
+2023-10-16T15:36:31.258Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 64%
+2023-10-16T15:36:31.265Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 65%
+2023-10-16T15:36:31.274Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 66%
+2023-10-16T15:36:31.292Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 67%
+2023-10-16T15:36:31.324Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 68%
+2023-10-16T15:36:31.342Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 74%
+2023-10-16T15:36:31.353Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 78%
+2023-10-16T15:36:31.360Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 80%
+2023-10-16T15:36:31.367Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 81%
+2023-10-16T15:36:31.445Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 82%
+2023-10-16T15:36:31.454Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 83%
+2023-10-16T15:36:31.461Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 84%
+2023-10-16T15:36:31.469Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 85%
+2023-10-16T15:36:31.483Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 86%
+2023-10-16T15:36:31.512Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 87%
+2023-10-16T15:36:31.526Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 91%
+2023-10-16T15:36:31.539Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 92%
+2023-10-16T15:36:31.545Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 95%
+2023-10-16T15:36:31.551Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 97%
+2023-10-16T15:36:31.555Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 98%
+2023-10-16T15:36:31.560Z [Modules] Streaming discord_spellcheck@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 100%
+2023-10-16T15:36:31.570Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2023-10-16T15:36:31.570Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip
+2023-10-16T15:36:31.861Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 1%
+2023-10-16T15:36:31.868Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 4%
+2023-10-16T15:36:31.874Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 8%
+2023-10-16T15:36:31.880Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 9%
+2023-10-16T15:36:31.888Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 12%
+2023-10-16T15:36:31.911Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 13%
+2023-10-16T15:36:31.918Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 15%
+2023-10-16T15:36:31.927Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 19%
+2023-10-16T15:36:31.943Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 28%
+2023-10-16T15:36:31.952Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 31%
+2023-10-16T15:36:31.959Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 37%
+2023-10-16T15:36:31.966Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 40%
+2023-10-16T15:36:31.972Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 42%
+2023-10-16T15:36:31.980Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 47%
+2023-10-16T15:36:31.987Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 52%
+2023-10-16T15:36:31.992Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 53%
+2023-10-16T15:36:32.003Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 57%
+2023-10-16T15:36:32.012Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 63%
+2023-10-16T15:36:32.020Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 67%
+2023-10-16T15:36:32.028Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 74%
+2023-10-16T15:36:32.036Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 77%
+2023-10-16T15:36:32.044Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 80%
+2023-10-16T15:36:32.051Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 82%
+2023-10-16T15:36:32.061Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 90%
+2023-10-16T15:36:32.070Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 93%
+2023-10-16T15:36:32.097Z [Modules] Streaming discord_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 100%
+2023-10-16T15:36:32.105Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2023-10-16T15:36:32.106Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip
+2023-10-16T15:36:32.387Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 1%
+2023-10-16T15:36:32.402Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 2%
+2023-10-16T15:36:32.421Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 3%
+2023-10-16T15:36:32.466Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 5%
+2023-10-16T15:36:32.476Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 7%
+2023-10-16T15:36:32.490Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 8%
+2023-10-16T15:36:32.498Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 10%
+2023-10-16T15:36:32.523Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 11%
+2023-10-16T15:36:32.544Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 12%
+2023-10-16T15:36:32.560Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 13%
+2023-10-16T15:36:32.575Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 14%
+2023-10-16T15:36:32.590Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 15%
+2023-10-16T15:36:32.598Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 16%
+2023-10-16T15:36:32.610Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 17%
+2023-10-16T15:36:32.617Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 19%
+2023-10-16T15:36:32.620Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 20%
+2023-10-16T15:36:32.623Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 21%
+2023-10-16T15:36:32.624Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 22%
+2023-10-16T15:36:32.627Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 23%
+2023-10-16T15:36:32.631Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 24%
+2023-10-16T15:36:32.633Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 25%
+2023-10-16T15:36:32.636Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 26%
+2023-10-16T15:36:32.638Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 27%
+2023-10-16T15:36:32.640Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 28%
+2023-10-16T15:36:32.651Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 29%
+2023-10-16T15:36:32.658Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 30%
+2023-10-16T15:36:32.669Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 31%
+2023-10-16T15:36:32.676Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 32%
+2023-10-16T15:36:32.684Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 33%
+2023-10-16T15:36:32.694Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 34%
+2023-10-16T15:36:32.713Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 35%
+2023-10-16T15:36:32.720Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 36%
+2023-10-16T15:36:32.731Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 37%
+2023-10-16T15:36:32.753Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 38%
+2023-10-16T15:36:32.776Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 40%
+2023-10-16T15:36:32.786Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 43%
+2023-10-16T15:36:32.797Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 44%
+2023-10-16T15:36:32.812Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 45%
+2023-10-16T15:36:32.831Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 46%
+2023-10-16T15:36:32.849Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 47%
+2023-10-16T15:36:32.864Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 48%
+2023-10-16T15:36:32.870Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 49%
+2023-10-16T15:36:32.877Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 50%
+2023-10-16T15:36:32.885Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 51%
+2023-10-16T15:36:32.887Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 52%
+2023-10-16T15:36:32.891Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 53%
+2023-10-16T15:36:32.896Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 54%
+2023-10-16T15:36:32.902Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 55%
+2023-10-16T15:36:32.904Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 56%
+2023-10-16T15:36:32.906Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 57%
+2023-10-16T15:36:32.911Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 58%
+2023-10-16T15:36:32.919Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 59%
+2023-10-16T15:36:32.931Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 60%
+2023-10-16T15:36:32.939Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 61%
+2023-10-16T15:36:32.950Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 62%
+2023-10-16T15:36:32.959Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 63%
+2023-10-16T15:36:32.968Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 64%
+2023-10-16T15:36:32.977Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 65%
+2023-10-16T15:36:32.986Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 66%
+2023-10-16T15:36:32.997Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 67%
+2023-10-16T15:36:33.004Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 68%
+2023-10-16T15:36:33.014Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 69%
+2023-10-16T15:36:33.021Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 70%
+2023-10-16T15:36:33.033Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 71%
+2023-10-16T15:36:33.040Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 72%
+2023-10-16T15:36:33.050Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 73%
+2023-10-16T15:36:33.057Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 74%
+2023-10-16T15:36:33.069Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 75%
+2023-10-16T15:36:33.087Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 76%
+2023-10-16T15:36:33.099Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 77%
+2023-10-16T15:36:33.105Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 78%
+2023-10-16T15:36:33.125Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 79%
+2023-10-16T15:36:33.143Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 80%
+2023-10-16T15:36:33.160Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 81%
+2023-10-16T15:36:33.182Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 82%
+2023-10-16T15:36:33.205Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 83%
+2023-10-16T15:36:33.219Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 84%
+2023-10-16T15:36:33.236Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 85%
+2023-10-16T15:36:33.282Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 88%
+2023-10-16T15:36:33.292Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 89%
+2023-10-16T15:36:33.310Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 90%
+2023-10-16T15:36:33.319Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 91%
+2023-10-16T15:36:33.334Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 92%
+2023-10-16T15:36:33.344Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 94%
+2023-10-16T15:36:33.348Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 96%
+2023-10-16T15:36:33.353Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 97%
+2023-10-16T15:36:33.357Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 98%
+2023-10-16T15:36:33.360Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 99%
+2023-10-16T15:36:33.365Z [Modules] Streaming discord_voice@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 100%
+2023-10-16T15:36:33.368Z [Modules] Finished module downloads. [success: 5] [failure: 0]
+2023-10-16T15:36:33.369Z [Modules] Installing updates...
+2023-10-16T15:36:33.369Z [Modules] Installing discord_desktop_core@1 from /home/orbii/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip
+2023-10-16T15:36:33.602Z [Modules] Installing discord_erlpack@1 from /home/orbii/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip
+2023-10-16T15:36:33.786Z [Modules] Installing discord_spellcheck@1 from /home/orbii/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip
+2023-10-16T15:36:35.927Z [Modules] Installing discord_utils@1 from /home/orbii/.config/discord/0.0.31/modules/pending/discord_utils-1.zip
+2023-10-16T15:36:37.227Z [Modules] Installing discord_voice@1 from /home/orbii/.config/discord/0.0.31/modules/pending/discord_voice-1.zip
+2023-10-16T15:36:39.372Z [Modules] Finished module installations. [success: 5] [failure: 0]
+2023-10-16T15:36:39.373Z [Modules] Checking for host updates.
+2023-10-16T15:36:39.621Z [Modules] Host is up to date.
+2023-10-16T15:36:39.621Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-10-16T15:36:39.632Z [Modules] No module updates available.
+2023-10-16T15:36:42.784Z [Modules] Starting to install discord_krisp...
+2023-10-16T15:36:42.784Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2023-10-16T15:36:42.784Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip
+2023-10-16T15:36:42.816Z [Modules] Starting to install discord_game_utils...
+2023-10-16T15:36:43.032Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 1%
+2023-10-16T15:36:43.044Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 2%
+2023-10-16T15:36:43.056Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 3%
+2023-10-16T15:36:43.067Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 4%
+2023-10-16T15:36:43.082Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 5%
+2023-10-16T15:36:43.086Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 6%
+2023-10-16T15:36:43.098Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 7%
+2023-10-16T15:36:43.113Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 8%
+2023-10-16T15:36:43.121Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 9%
+2023-10-16T15:36:43.137Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 10%
+2023-10-16T15:36:43.145Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 11%
+2023-10-16T15:36:43.154Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 12%
+2023-10-16T15:36:43.167Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 13%
+2023-10-16T15:36:43.177Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 14%
+2023-10-16T15:36:43.186Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 15%
+2023-10-16T15:36:43.199Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 16%
+2023-10-16T15:36:43.209Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 17%
+2023-10-16T15:36:43.219Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 18%
+2023-10-16T15:36:43.232Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 19%
+2023-10-16T15:36:43.244Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 20%
+2023-10-16T15:36:43.249Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 21%
+2023-10-16T15:36:43.261Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 22%
+2023-10-16T15:36:43.270Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 23%
+2023-10-16T15:36:43.281Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 24%
+2023-10-16T15:36:43.301Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 25%
+2023-10-16T15:36:43.314Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 26%
+2023-10-16T15:36:43.332Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 27%
+2023-10-16T15:36:43.337Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 28%
+2023-10-16T15:36:43.431Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 29%
+2023-10-16T15:36:43.528Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 30%
+2023-10-16T15:36:43.595Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 31%
+2023-10-16T15:36:43.616Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 32%
+2023-10-16T15:36:43.636Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 33%
+2023-10-16T15:36:43.639Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 34%
+2023-10-16T15:36:43.654Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 35%
+2023-10-16T15:36:43.661Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 36%
+2023-10-16T15:36:43.667Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 37%
+2023-10-16T15:36:43.678Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 38%
+2023-10-16T15:36:43.682Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 39%
+2023-10-16T15:36:43.688Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 40%
+2023-10-16T15:36:43.695Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 41%
+2023-10-16T15:36:43.697Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 42%
+2023-10-16T15:36:43.700Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 43%
+2023-10-16T15:36:43.701Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 44%
+2023-10-16T15:36:43.706Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 45%
+2023-10-16T15:36:43.707Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 46%
+2023-10-16T15:36:43.709Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 47%
+2023-10-16T15:36:43.711Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 48%
+2023-10-16T15:36:43.713Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 49%
+2023-10-16T15:36:43.716Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 50%
+2023-10-16T15:36:43.718Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 51%
+2023-10-16T15:36:43.720Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 52%
+2023-10-16T15:36:43.721Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 53%
+2023-10-16T15:36:43.723Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 54%
+2023-10-16T15:36:43.726Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 55%
+2023-10-16T15:36:43.729Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 56%
+2023-10-16T15:36:43.731Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 57%
+2023-10-16T15:36:43.743Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 58%
+2023-10-16T15:36:43.754Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 59%
+2023-10-16T15:36:43.767Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 60%
+2023-10-16T15:36:43.785Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 61%
+2023-10-16T15:36:43.794Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 62%
+2023-10-16T15:36:43.808Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 63%
+2023-10-16T15:36:43.819Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 64%
+2023-10-16T15:36:44.113Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 65%
+2023-10-16T15:36:44.126Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 66%
+2023-10-16T15:36:44.130Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 67%
+2023-10-16T15:36:44.178Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 72%
+2023-10-16T15:36:44.186Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 73%
+2023-10-16T15:36:44.200Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 82%
+2023-10-16T15:36:44.203Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 83%
+2023-10-16T15:36:44.210Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 84%
+2023-10-16T15:36:44.214Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 85%
+2023-10-16T15:36:44.217Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 86%
+2023-10-16T15:36:44.222Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 87%
+2023-10-16T15:36:44.228Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 88%
+2023-10-16T15:36:44.249Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 89%
+2023-10-16T15:36:44.253Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 90%
+2023-10-16T15:36:44.263Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 91%
+2023-10-16T15:36:44.284Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 92%
+2023-10-16T15:36:44.294Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 93%
+2023-10-16T15:36:44.317Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 95%
+2023-10-16T15:36:44.331Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 96%
+2023-10-16T15:36:44.335Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 97%
+2023-10-16T15:36:44.349Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 98%
+2023-10-16T15:36:44.361Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 99%
+2023-10-16T15:36:44.370Z [Modules] Streaming discord_krisp@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip: 100%
+2023-10-16T15:36:44.375Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2023-10-16T15:36:44.375Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip
+2023-10-16T15:36:44.375Z [Modules] Installing discord_krisp@1 from /home/orbii/.config/discord/0.0.31/modules/pending/discord_krisp-1.zip
+2023-10-16T15:36:44.661Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 1%
+2023-10-16T15:36:44.681Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 16%
+2023-10-16T15:36:44.685Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 18%
+2023-10-16T15:36:44.690Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 24%
+2023-10-16T15:36:44.692Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 27%
+2023-10-16T15:36:44.695Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 29%
+2023-10-16T15:36:44.697Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 31%
+2023-10-16T15:36:44.699Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 33%
+2023-10-16T15:36:44.701Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 35%
+2023-10-16T15:36:44.703Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 37%
+2023-10-16T15:36:44.707Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 39%
+2023-10-16T15:36:44.708Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 42%
+2023-10-16T15:36:44.712Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 44%
+2023-10-16T15:36:44.713Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 45%
+2023-10-16T15:36:44.716Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 47%
+2023-10-16T15:36:44.717Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 48%
+2023-10-16T15:36:44.719Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 51%
+2023-10-16T15:36:44.722Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 52%
+2023-10-16T15:36:44.725Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 54%
+2023-10-16T15:36:44.726Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 56%
+2023-10-16T15:36:44.730Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 59%
+2023-10-16T15:36:44.733Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 61%
+2023-10-16T15:36:44.745Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 62%
+2023-10-16T15:36:44.746Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 64%
+2023-10-16T15:36:44.748Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 69%
+2023-10-16T15:36:44.750Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 75%
+2023-10-16T15:36:44.752Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 78%
+2023-10-16T15:36:44.756Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 81%
+2023-10-16T15:36:44.759Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 83%
+2023-10-16T15:36:44.759Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 84%
+2023-10-16T15:36:44.761Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 86%
+2023-10-16T15:36:44.763Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 87%
+2023-10-16T15:36:44.763Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 88%
+2023-10-16T15:36:44.764Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 90%
+2023-10-16T15:36:44.766Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 91%
+2023-10-16T15:36:44.769Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 94%
+2023-10-16T15:36:44.773Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 96%
+2023-10-16T15:36:44.777Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 99%
+2023-10-16T15:36:44.778Z [Modules] Streaming discord_game_utils@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip: 100%
+2023-10-16T15:36:44.781Z [Modules] Finished module downloads. [success: 2] [failure: 0]
+2023-10-16T15:36:45.544Z [Modules] Checking for host updates.
+2023-10-16T15:36:45.759Z [Modules] Host is up to date.
+2023-10-16T15:36:45.759Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-10-16T15:36:45.792Z [Modules] No module updates available.
+2023-10-16T15:36:45.879Z [Modules] Installing discord_game_utils@1 from /home/orbii/.config/discord/0.0.31/modules/pending/discord_game_utils-1.zip
+2023-10-16T15:36:46.029Z [Modules] Finished module installations. [success: 2] [failure: 0]
+2023-10-16T15:36:46.523Z [Modules] Starting to install discord_rpc...
+2023-10-16T15:36:46.523Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2023-10-16T15:36:46.523Z [Modules] Streaming discord_rpc@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_rpc-1.zip
+2023-10-16T15:36:46.805Z [Modules] Streaming discord_rpc@1 to /home/orbii/.config/discord/0.0.31/modules/pending/discord_rpc-1.zip: 100%
+2023-10-16T15:36:46.807Z [Modules] Finished module downloads. [success: 1] [failure: 0]
+2023-10-16T15:36:46.807Z [Modules] Installing discord_rpc@1 from /home/orbii/.config/discord/0.0.31/modules/pending/discord_rpc-1.zip
+2023-10-16T15:36:46.846Z [Modules] Finished module installations. [success: 1] [failure: 0]

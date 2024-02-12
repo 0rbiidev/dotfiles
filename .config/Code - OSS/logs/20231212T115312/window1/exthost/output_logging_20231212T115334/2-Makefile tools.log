@@ -1,0 +1,70 @@
+No current configuration is defined in the workspace state. Assuming 'Default'.
+Reading current build target "all" from the workspace state.
+Dropping various extension output files at /home/orbii/.config/Code - OSS/User/workspaceStorage/2a54adfd5d04d680fe21bbee3d3be6fe/ms-vscode.makefile-tools
+Logging level: Normal
+Configurations cached at /home/orbii/.config/Code - OSS/User/workspaceStorage/2a54adfd5d04d680fe21bbee3d3be6fe/ms-vscode.makefile-tools/configurationCache.log
+No path to the makefile is defined in the settings file.
+No folder path to the makefile is defined in the settings file.
+Always pre-configure: false
+Dry-run switches: '--always-make', '--keep-going', '--print-directory'
+No current launch configuration is set in the workspace state.
+Default launch configuration: MIMode = undefined,
+                    miDebuggerPath = undefined,
+                    stopAtEntry = undefined,
+                    symbolSearchPath = undefined
+Configure on open: true
+Configure on edit: true
+Configure after command: true
+Only .PHONY targets: false
+Save before build or configure: true
+Build before launch: true
+Clear output before build: true
+Ignore directory commands: true
+compile_commands.json path: null
+Deduced command 'make ' for configuration "Default"
+Saving opened files before build.
+Configuring from cache: /home/orbii/.config/Code - OSS/User/workspaceStorage/2a54adfd5d04d680fe21bbee3d3be6fe/ms-vscode.makefile-tools/configurationCache.log
+Load configuration from cache elapsed time: 0.571
+Generating in the background a new configuration cache with command: 'make all --dry-run --always-make --keep-going --print-directory'
+Writing the dry-run output: /home/orbii/.config/Code - OSS/User/workspaceStorage/2a54adfd5d04d680fe21bbee3d3be6fe/ms-vscode.makefile-tools/dryrun.log
+Generating dry-run elapsed time: 0.078
+Preprocessing: "/home/orbii/.config/Code - OSS/User/workspaceStorage/2a54adfd5d04d680fe21bbee3d3be6fe/ms-vscode.makefile-tools/dryrun.log"
+Preprocess elapsed time: 0
+Parsing for IntelliSense.
+Updating the CppTools IntelliSense Configuration Provider.
+Parsing dry-run output for CppTools Custom Configuration Provider.
+Error while running the compiler args parser script '/tmp/parseCompilerArgs.sh' for regions ("-Wall -g --cflags x11 libglog freetype2`   -c -o window_manager.o window_manager.cpp)": "/bin/sh: -c: line 1: unexpected EOF while looking for matching ``'
+"
+The compiler args parser script '/tmp/parseCompilerArgs.sh' failed with error code 2 for regions (-Wall -g --cflags x11 libglog freetype2`   -c -o window_manager.o window_manager.cpp)
+Sending configuration for file /home/orbii/git/flotise/window_manager.cpp -----------------------------------
+Error while running the compiler args parser script '/tmp/parseCompilerArgs.sh' for regions ("-Wall -g --cflags x11 libglog freetype2`   -c -o main.o main.cpp)": "/bin/sh: -c: line 1: unexpected EOF while looking for matching ``'
+"
+The compiler args parser script '/tmp/parseCompilerArgs.sh' failed with error code 2 for regions (-Wall -g --cflags x11 libglog freetype2`   -c -o main.o main.cpp)
+Sending configuration for file /home/orbii/git/flotise/main.cpp -----------------------------------
+Parsing for IntelliSense elapsed time: 0.743
+Parsing for launch targets.
+Found the following 1 launch targets defined in the makefile: /home/orbii/git/flotise>flotise()
+Complete list of launch targets: /home/orbii/git/flotise>flotise()
+Parsing for launch targets elapsed time: 0.03
+Generating parse content for build targets.
+Generating targets information with command: 'make all --print-data-base --no-builtin-variables --no-builtin-rules --question'
+Writing the dry-run output: /home/orbii/.config/Code - OSS/User/workspaceStorage/2a54adfd5d04d680fe21bbee3d3be6fe/ms-vscode.makefile-tools/targets.log
+Generating dry-run elapsed time: 0.086
+Parsing for build targets from: "/home/orbii/.config/Code - OSS/User/workspaceStorage/2a54adfd5d04d680fe21bbee3d3be6fe/ms-vscode.makefile-tools/targets.log"
+Found the following 3 build targets defined in the makefile: all;clean;flotise
+Complete list of build targets: all;clean;flotise
+Parsing build targets elapsed time: 0.04
+Configure finished. The status for all the subphases that ran:
+loadFromCache: return code = 0, elapsed time = 0.571
+generateParseContent: return code = 0, elapsed time = 0.078
+preprocessParseContent: return code = 0, elapsed time = 0
+parseIntelliSense: return code = 0, elapsed time = 0.743
+parseLaunch: return code = 0, elapsed time = 0.03
+dryrunTargets: return code = 0, elapsed time = 0.086
+parseTargets: return code = 0, elapsed time = 0.04
+Configure succeeded.
+Configure elapsed time: 1.71
+Configuration for file /home/orbii/git/flotise/window_manager.hpp was not found. CppTools will set a default configuration.
+Configuration for file /home/orbii/git/flotise/window_tree.h was not found. CppTools will set a default configuration.
+Configuration for file /home/orbii/git/flotise/window_tree.hpp was not found. CppTools will set a default configuration.
+Configuration for file /home/orbii/git/flotise/window_tree.cpp was not found. CppTools will set a default configuration.

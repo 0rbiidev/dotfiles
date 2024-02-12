@@ -1,0 +1,9 @@
+configuration {
+	font: "Terminus 8";
+	
+	terminal: "kitty";
+}
+
+
+
+@theme "./dmenu.rasi"

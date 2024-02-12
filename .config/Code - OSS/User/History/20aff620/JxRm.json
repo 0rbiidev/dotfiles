@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Yume Dark",
+    "editor.fontFamily": "Terminess Nerd Font Mono",
+    "editor.fontSize": 12,
+    "terminal.external.linuxExec": "kitty"
+    
+}

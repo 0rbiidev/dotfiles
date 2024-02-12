@@ -1,0 +1,20 @@
+2023-10-27 13:50:44.929 [info] Log level: Info
+2023-10-27 13:50:44.929 [info] Validating found git in: "git"
+2023-10-27 13:50:44.929 [info] Using git "2.42.0" from "git"
+2023-10-27 13:50:44.929 [info] > git rev-parse --show-toplevel [36ms]
+2023-10-27 13:50:44.929 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2023-10-27 13:50:44.929 [info] Open repository: /home/orbii/git/flotise
+2023-10-27 13:50:44.932 [info] > git config --get commit.template [16ms]
+2023-10-27 13:50:44.934 [info] > git rev-parse --show-toplevel [6ms]
+2023-10-27 13:50:44.953 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2023-10-27 13:50:44.990 [info] > git status -z -uall [10ms]
+2023-10-27 13:50:45.043 [info] > git config --get commit.template [16ms]
+2023-10-27 13:50:45.047 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-10-27 13:50:45.065 [info] > git status -z -uall [6ms]
+2023-10-27 13:50:45.849 [info] > git check-ignore -v -z --stdin [25ms]
+2023-10-27 13:50:49.123 [info] > git show --textconv :window_manager.cpp [29ms]
+2023-10-27 13:50:49.131 [info] > git ls-files --stage -- /home/orbii/git/flotise/window_manager.cpp [9ms]
+2023-10-27 13:50:49.150 [info] > git cat-file -s 961dbbf8cd24d591cc124f01fc0a88a6fd1fc80d [4ms]
+2023-10-27 13:54:54.056 [info] > git show --textconv :window_manager.cpp [27ms]
+2023-10-27 13:54:54.063 [info] > git ls-files --stage -- /home/orbii/git/flotise/window_manager.cpp [7ms]
+2023-10-27 13:54:54.085 [info] > git cat-file -s 961dbbf8cd24d591cc124f01fc0a88a6fd1fc80d [6ms]

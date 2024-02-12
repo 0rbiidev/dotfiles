@@ -1,0 +1,13 @@
+2023-10-27 13:50:42.601 [info] Deleted uninstalled extension from disk feelthatvib3.yume-theme /home/orbii/.vscode-oss/extensions/feelthatvib3.yume-theme-1.0.4-universal
+2023-10-27 13:53:56.839 [info] Installing extension: degreat.fonted
+2023-10-27 13:53:57.550 [info] Extracted extension to file:///home/orbii/.vscode-oss/extensions/degreat.fonted-0.0.7: degreat.fonted
+2023-10-27 13:53:57.560 [info] Renamed to /home/orbii/.vscode-oss/extensions/degreat.fonted-0.0.7
+2023-10-27 13:53:57.563 [info] Extracting extension completed. degreat.fonted
+2023-10-27 13:53:57.598 [info] Extension installed successfully: degreat.fonted
+2023-10-27 13:53:57.671 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/orbii/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/orbii/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30209)
+    at i (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30329)
+    at t.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:35755)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28201)
+    at async w.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15579)
+    at async Q.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9514)

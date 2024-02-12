@@ -1,0 +1,15 @@
+{
+    "workbench.colorTheme": "Yume Dark",
+    "editor.fontFamily": "Terminess Nerd Font Mono",
+    "editor.fontSize": 12,
+    "terminal.external.linuxExec": "kitty",
+    "terminal.integrated.fontSize": 12,
+    "editor.codeLensFontFamily": "Terminess Nerd Font Mono",
+    "editor.inlayHints.fontFamily": "Terminess Nerd Font Mono",
+    "debug.console.fontFamily": "Terminess Nerd Font Mono",
+    "scm.inputFontFamily": "Terminess Nerd Font Mono",
+    "chat.editor.fontFamily": "Terminess Nerd Font Mono",
+    "customizeUI.font.monospace": "Terminess Nerd Font Mono",
+    "customizeUI.font.regular": "Terminess Nerd Font Mono"
+    
+}

@@ -1,0 +1,15 @@
+2024-01-05 18:12:54.855 [info] Getting Manifest... ms-vscode.makefile-tools
+2024-01-05 18:12:55.487 [info] Installing extension: ms-vscode.makefile-tools
+2024-01-05 18:12:59.317 [info] Extension signature verification is not done: ms-vscode.makefile-tools
+2024-01-05 18:13:00.327 [info] Extracted extension to file:///home/orbii/.vscode-oss/extensions/ms-vscode.makefile-tools-0.8.22-universal: ms-vscode.makefile-tools
+2024-01-05 18:13:00.333 [info] Renamed to /home/orbii/.vscode-oss/extensions/ms-vscode.makefile-tools-0.8.22-universal
+2024-01-05 18:13:00.337 [info] Extracting extension completed. ms-vscode.makefile-tools
+2024-01-05 18:13:00.349 [info] Extension installed successfully: ms-vscode.makefile-tools
+2024-01-05 18:13:00.355 [info] Marked extension as uninstalled ms-vscode.makefile-tools-0.7.0-universal
+2024-01-05 18:13:00.423 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/orbii/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/orbii/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30056)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30170)
+    at s.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async Y.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:100:111319)

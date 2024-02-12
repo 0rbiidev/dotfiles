@@ -1,0 +1,46 @@
+2023-10-27 13:55:15.447 [info] Extension host with pid 158978 started
+2023-10-27 13:55:15.447 [info] Skipping acquiring lock for /home/orbii/.config/Code - OSS/User/workspaceStorage/2a54adfd5d04d680fe21bbee3d3be6fe.
+2023-10-27 13:55:16.580 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-10-27 13:55:16.591 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2023-10-27 13:55:16.964 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-27 13:55:18.056 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-27 13:55:18.092 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-27 13:55:18.319 [info] ExtensionService#_doActivateExtension ms-vscode.makefile-tools, startup: true, activationEvent: 'workspaceContains:**/makefile,**/Makefile,**/GNUmakefile'
+2023-10-27 13:55:18.357 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-10-27 13:55:18.372 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2023-10-27 13:55:18.412 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2023-10-27 13:55:18.797 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-10-27 13:55:20.522 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-10-27 13:55:21.012 [info] Eager extensions activated
+2023-10-27 13:55:21.167 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-27 13:55:21.172 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-27 13:55:21.206 [info] ExtensionService#_doActivateExtension degreat.fonted, startup: false, activationEvent: 'onStartupFinished'
+2023-10-27 13:55:46.458 [error] Error: EACCES: permission denied, open '/usr/lib/code/out/vs/code/electron-sandbox/workbench/workbench.html'
+	at Object.openSync (node:fs:601:3)
+	at Object.func [as openSync] (node:electron/js2c/asar_bundle:2:1869)
+	at Object.writeFileSync (node:fs:2249:35)
+	at p (/home/orbii/.vscode-oss/extensions/degreat.fonted-0.0.7/out/extension.js:3:246)
+	at B (/home/orbii/.vscode-oss/extensions/degreat.fonted-0.0.7/out/extension.js:3:126)
+	at /home/orbii/.vscode-oss/extensions/degreat.fonted-0.0.7/out/extension.js:1:836
+	at n.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:84283)
+	at n.$executeContributedCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:125:85143)
+	at i.S (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:10827)
+	at i.Q (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:10593)
+	at i.M (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:9683)
+	at i.L (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:8762)
+	at s.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:134:7565)
+	at c.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at m.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:14010)
+	at s.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:7902)
+	at c.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at m.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:14010)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:153:6182)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) fonted.enable {"value":"degreat.fonted","_lower":"degreat.fonted"}
+2023-10-27 14:07:52.300 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.inline.macro'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-10-27 14:42:06.271 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.inline.macro'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-10-27 14:42:06.330 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.inline.macro'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-10-27 14:42:06.360 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.inline.macro'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-10-27 15:37:56.058 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.inline.macro'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.

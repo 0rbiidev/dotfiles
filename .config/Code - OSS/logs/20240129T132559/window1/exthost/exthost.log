@@ -1,0 +1,235 @@
+2024-01-29 13:26:05.026 [info] Extension host with pid 10653 started
+2024-01-29 13:26:05.026 [info] Skipping acquiring lock for /home/orbii/.config/Code - OSS/User/workspaceStorage/2a54adfd5d04d680fe21bbee3d3be6fe.
+2024-01-29 13:26:05.734 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-29 13:26:05.816 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+2024-01-29 13:26:07.194 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-29 13:26:07.201 [info] ExtensionService#_doActivateExtension auiworks.amvim, startup: true, activationEvent: '*'
+2024-01-29 13:26:07.759 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-29 13:26:08.095 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-29 13:26:08.553 [info] ExtensionService#_doActivateExtension ms-vscode.makefile-tools, startup: true, activationEvent: 'workspaceContains:**/makefile,**/Makefile,**/GNUmakefile'
+2024-01-29 13:26:10.065 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-01-29 13:26:10.108 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-01-29 13:26:10.437 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-01-29 13:26:10.637 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-01-29 13:26:10.834 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-01-29 13:26:12.553 [info] Eager extensions activated
+2024-01-29 13:26:12.678 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-29 13:26:12.699 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-29 13:26:12.811 [info] ExtensionService#_doActivateExtension degreat.fonted, startup: false, activationEvent: 'onStartupFinished'
+2024-02-02 12:49:58.793 [info] Extension host terminating: renderer closed the MessagePort
+2024-02-02 12:49:58.858 [error] Canceled: Canceled
+	at new g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at f.I [as value] (/usr/lib/code/extensions/git/dist/main.js:2:924696)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:940613)
+	at /usr/lib/code/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/usr/lib/code/extensions/git/dist/main.js:2:945552)
+	at u.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at u.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:926708)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-02-02 12:49:58.867 [error] Canceled: Canceled
+	at new g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at set b [as b] (/usr/lib/code/extensions/github/dist/extension.js:2:322364)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:323005
+	at f.value (/usr/lib/code/extensions/git/dist/main.js:2:1016450)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:940613)
+	at /usr/lib/code/extensions/git/dist/main.js:2:945566
+	at Array.forEach (<anonymous>)
+	at p.dispose (/usr/lib/code/extensions/git/dist/main.js:2:945552)
+	at u.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3620)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at u.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:926708)
+	at u.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:137:3717)
+	at s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-02-02 12:49:58.868 [error] Canceled: Canceled
+	at new g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at P.clearInputs (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:55262)
+	at P.exit (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:55165)
+	at P.exit (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:62938)
+	at P.dispose (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:55215)
+	at /home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:41849
+	at Array.forEach (<anonymous>)
+	at t.Dispatcher.dispose (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:41822)
+	at s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-02-02 12:49:58.868 [error] Canceled: Canceled
+	at new g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at b.clearInputs (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:55262)
+	at b.exit (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:55165)
+	at b.dispose (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:55215)
+	at /home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:41849
+	at Array.forEach (<anonymous>)
+	at t.Dispatcher.dispose (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:41822)
+	at s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-02-02 12:49:58.869 [error] Canceled: Canceled
+	at new g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at x.clearInputs (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:55262)
+	at x.exit (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:55165)
+	at x.dispose (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:55215)
+	at /home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:41849
+	at Array.forEach (<anonymous>)
+	at t.Dispatcher.dispose (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:41822)
+	at s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-02-02 12:49:58.869 [error] Canceled: Canceled
+	at new g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at y.clearInputs (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:55262)
+	at y.exit (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:55165)
+	at y.exit (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:52005)
+	at y.dispose (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:55215)
+	at /home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:41849
+	at Array.forEach (<anonymous>)
+	at t.Dispatcher.dispose (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:41822)
+	at s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-02-02 12:49:58.869 [error] Canceled: Canceled
+	at new g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at a.clearInputs (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:55262)
+	at a.exit (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:55165)
+	at a.exit (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:52005)
+	at a.dispose (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:55215)
+	at /home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:41849
+	at Array.forEach (<anonymous>)
+	at t.Dispatcher.dispose (/home/orbii/.vscode-oss/extensions/auiworks.amvim-1.36.0-universal/dist/extension.js:1:41822)
+	at s (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at f.cb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:9873)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-02-02 12:49:58.870 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-02-02 12:49:58.871 [warning] Canceled
+2024-02-02 12:49:59.162 [info] Extension host with pid 10653 exiting with code 0
